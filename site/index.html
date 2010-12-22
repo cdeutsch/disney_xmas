@@ -1,0 +1,396 @@
+<!doctype html>
+<!-- paulirish.com/2008/conditional-stylesheets-vs-css-hacks-answer-neither/ -->
+<!--[if lt IE 7 ]> <html lang="en" class="no-js ie6"> <![endif]-->
+<!--[if IE 7 ]> <html lang="en" class="no-js ie7"> <![endif]-->
+<!--[if IE 8 ]> <html lang="en" class="no-js ie8"> <![endif]-->
+<!--[if IE 9 ]> <html lang="en" class="no-js ie9"> <![endif]-->
+<!--[if (gt IE 9)|!(IE)]> ><! <![endif]-->
+<html class='no-js' lang='en'>
+  <!-- <![endif] -->
+  <head>
+    <meta charset='utf-8' />
+    <title>X-mas Challenge!</title>
+    <meta content='Kids Christmas Challenge' name='description' />
+    <meta content='CDeutsch' name='author' />
+    <!-- Mobile viewport optimized: j.mp/bplateviewport -->
+    <meta content='width=device-width, initial-scale=1.0' name='viewport' />
+    <!-- Place favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+    <link href='/favicon.ico' rel='shortcut icon' />
+    <link href='/apple-touch-icon.png' rel='apple-touch-icon' />
+    <!-- CSS : implied media="all" -->
+    <link href='stylesheets/jquery-ui.css?v=2' rel='stylesheet' />
+    <link href='stylesheets/screen.css?v=2' rel='stylesheet' />
+    <!-- Uncomment if you are specifically targeting less enabled mobile browsers -->
+    <!-- <link rel="stylesheet" media="handheld" href="css/handheld.css?v=2"> -->
+    <!-- All JavaScript at the bottom, except for Modernizr which enables HTML5 elements & feature detects -->
+    <script src='javascripts/libs/modernizr-1.6.min.js'></script>
+  </head>
+  <body>
+    <div id='fullpageContainer'>
+      <table id='centeringTable'>
+        <tr>
+          <td>
+            <h1>Welcome to the Christmas Challenge!</h1>
+            <div id='container'>
+              <div id='a1'>
+                <img alt="A1" src="images/a1.jpg"/>
+              </div>
+              <div id='a2'>
+                <img alt="A2" src="images/a2.jpg"/>
+              </div>
+              <div id='a3'>
+                <img alt="A3" src="images/a3.jpg"/>
+              </div>
+              <div id='b1'>
+                <img alt="B1" src="images/b1.jpg"/>
+              </div>
+              <div id='b2'>
+                <img alt="B2" src="images/b2.jpg"/>
+              </div>
+              <div id='b3'>
+                <img alt="B3" src="images/b3.jpg"/>
+              </div>
+              <div id='c1'>
+                <img alt="C1" src="images/c1.jpg"/>
+              </div>
+              <div id='c2'>
+                <img alt="C2" src="images/c2.jpg"/>
+              </div>
+              <div id='c3'>
+                <img alt="C3" src="images/c3.jpg"/>
+              </div>
+            </div>
+            <div id='win'>
+              <div id='container2'>
+                <img alt="Win" src="images/win.jpg"/>
+                <h2>
+                  Hunter and Chloe, you're going to Disney World!!!
+                </h2>
+              </div>
+            </div>
+            <div id='q1'>
+              <strong>
+                When is your Mom’s birthday?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest1' type='radio' value='a'>
+                    A) February 14th
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest1' type='radio' value='b'>
+                    B) January 29th
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest1' type='radio' value='c'>
+                    C) February 23rd
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest1' type='radio' value='d'>
+                    D) February 19th
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q2'>
+              <strong>
+                About how many miles is it from the beginning of the Mississippi river to the Gulf of Mexico?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest2' type='radio' value='a'>
+                    A) 2 miles
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest2' type='radio' value='b'>
+                    B) 300 miles
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest2' type='radio' value='c'>
+                    C) 2,300 miles
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest2' type='radio' value='d'>
+                    D) 10,000 miles
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q3'>
+              <strong>
+                How old will your mom be on her next birthday?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest3' type='radio' value='a'>
+                    A) 27
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest3' type='radio' value='b'>
+                    B) 37
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest3' type='radio' value='c'>
+                    C) 47
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest3' type='radio' value='d'>
+                    D) 57
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q4'>
+              <strong>
+                What would your mom like to do to Christopher? ;)
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest4' type='radio' value='a'>
+                    A) Punch him in the face
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest4' type='radio' value='b'>
+                    B) Kick him in the knee
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest4' type='radio' value='c'>
+                    C) Give him a big kiss
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest4' type='radio' value='d'>
+                    D) Push him on the floor
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q5'>
+              <strong>
+                What state was your mom born in?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest5' type='radio' value='a'>
+                    A) California
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest5' type='radio' value='b'>
+                    B) Chicago
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest5' type='radio' value='c'>
+                    C) Minnesota
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest5' type='radio' value='d'>
+                    D) Wisconsin
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q6'>
+              <strong>
+                What is the capital of Minnesota?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest6' type='radio' value='a'>
+                    A) Minneapolis
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest6' type='radio' value='b'>
+                    B) St. Paul
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest6' type='radio' value='c'>
+                    C) Bloomington
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest6' type='radio' value='d'>
+                    D) Maple Grove
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q7'>
+              <strong>
+                How many counties are in the state of Minnesota?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest7' type='radio' value='a'>
+                    A) 65
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest7' type='radio' value='b'>
+                    B) 20
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest7' type='radio' value='c'>
+                    C) 87
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest7' type='radio' value='d'>
+                    D) 92
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q8'>
+              <strong>
+                What is the capital of Florida?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest8' type='radio' value='a'>
+                    A) Tallahassee
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest8' type='radio' value='b'>
+                    B) Miami
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest8' type='radio' value='c'>
+                    C) Fort Lauderdale
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest8' type='radio' value='d'>
+                    D) Orlando
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q9'>
+              <strong>
+                Where is Florida?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest9' type='radio' value='a'>
+                    A) Pacific Northwest
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest9' type='radio' value='b'>
+                    B) Mid-Atlantic
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest9' type='radio' value='c'>
+                    C) South Eastern U.S.
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest9' type='radio' value='d'>
+                    D) Northern U.S
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+            <div id='q10'>
+              <strong>
+                Where is the happiest place on Earth?
+              </strong>
+              <fieldset>
+                <div class='option'>
+                  <input name='quest10' type='radio' value='a'>
+                    A) Paris
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest10' type='radio' value='b'>
+                    B) Disney World
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest10' type='radio' value='c'>
+                    C) Minneapolis
+                  </input>
+                </div>
+                <div class='option'>
+                  <input name='quest10' type='radio' value='d'>
+                    D) Northwood, ND
+                  </input>
+                </div>
+              </fieldset>
+              <div class='feedback ui-state-highlight'></div>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <!-- ! end of #container -->
+    <!-- Javascript at the bottom for fast page loading -->
+    <!-- Grab Google CDN's jQuery. fall back to local if necessary -->
+    <script language="javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.js" type="text/javascript"></script>
+    <script type='text/javascript'>
+      //<![CDATA[
+        window.jQuery && document.write(unescape('%3Cscript src="javascripts/libs/jquery-1.4.4.js"%3E%3C/script%3E'));
+      //]]>
+    </script>
+    <!-- end concatenated and minified scripts -->
+    <!--[if lt IE 7 ]>
+      <script src="javascripts/libs/dd_belatedpng.js"></script>
+      <script> DD_belatedPNG.fix('img, .png_bg'); //fix any <img> or .png_bg background-images </script>
+    <![endif]-->
+    <!--
+      include my compressed javascript plugins/libs
+    -->
+    <script language="javascript" src="javascripts/site.min.js" type="text/javascript"></script>
+    <!-- comment out in production -->
+    <!-- %script{:src => "javascripts/default.js"} -->
+    <!-- make it snow -->
+    <script src='javascripts/libs/smoke.js'></script>
+    <!--
+      use google analytics helper
+      change the UA-XXXXX-X to be your site's ID
+    -->
+    <!--
+      TODO:
+      
+      <script type="text/javascript">
+        var _gaq = _gaq || [];
+        _gaq.push(['_setAccount', 'UA-XXXXX-X']);
+        _gaq.push(['_trackPageview']);
+        (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+        })();
+      </script>
+    -->
+  </body>
+</html>

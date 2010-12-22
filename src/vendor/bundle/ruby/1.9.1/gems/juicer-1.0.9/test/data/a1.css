@@ -1,0 +1,5 @@
+@import	'b1.css';
+@import 'c1.css';
+body {
+    width: 800px;
+}

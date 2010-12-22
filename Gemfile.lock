@@ -1,0 +1,44 @@
+GIT
+  remote: git://github.com/pferdefleisch/staticmatic.git
+  revision: 7f8ebebb145781d32f88ca458e9d94c391b3b2cc
+  branch: master
+  specs:
+    staticmatic (0.11.0)
+      compass (>= 0.10.0)
+      haml (>= 2.0.0)
+      rack (>= 1.0)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    cmdparse (2.0.2)
+    compass (0.10.6)
+      haml (>= 3.0.4)
+    diff-lcs (1.1.2)
+    grit (2.3.0)
+      diff-lcs (~> 1.1)
+      mime-types (~> 1.15)
+    haml (3.0.25)
+    highline (1.6.1)
+    juicer (1.0.9)
+      cmdparse
+      nokogiri
+      rubyzip
+    mime-types (1.16)
+    nokogiri (1.4.4)
+    rack (1.2.1)
+    rake (0.8.7)
+    rubyzip (0.9.4)
+    sprockets (1.0.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  compass
+  grit
+  highline
+  juicer
+  rake
+  sprockets
+  staticmatic!

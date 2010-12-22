@@ -1,0 +1,14 @@
+body {
+    background: url(/images/1.png);
+}
+
+h1 {
+    background: url(/css/2.gif);
+    background: url(/a1.css) 0 0 no-repeat;
+}
+
+h2 {
+   background: url(/css/2.gif) no-repeat;
+}
+
+p { background: url(/a2.css); }

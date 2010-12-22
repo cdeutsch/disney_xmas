@@ -1,0 +1,12 @@
+body {
+    background: url(http://assets1/images/1.png);
+}
+
+h1 {
+    background: url(http://assets2/css/2.gif);
+    background: url(http://assets3/a1.css) 0 0 no-repeat;
+}
+
+h2 {
+   background: url(http://assets2/css/2.gif) no-repeat;
+}

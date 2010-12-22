@@ -1,0 +1,206 @@
+%h1 Welcome to the Christmas Challenge!
+
+#container
+  #a1
+    = img "a1.jpg"
+  #a2
+    = img "a2.jpg"
+  #a3
+    = img "a3.jpg"
+  #b1
+    = img "b1.jpg"
+  #b2
+    = img "b2.jpg"
+  #b3
+    = img "b3.jpg"
+  #c1
+    = img "c1.jpg"
+  #c2
+    = img "c2.jpg"
+  #c3
+    = img "c3.jpg"
+
+#win
+  #container2
+    = img "win.jpg"
+    %h2
+      Hunter and Chloe, you're going to Disney World!!!
+#q1
+  %strong
+    When is your Mom’s birthday?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest1", :value => "a"}
+        A) February 14th long long long long long long long long long
+    .option
+      %input{:type => "radio", :name => "quest1", :value => "b"}
+        B) January 29th long long long long long long long long long
+    .option
+      %input{:type => "radio", :name => "quest1", :value => "c"}
+        C) February 23rd long long long long long long long long long
+    .option
+      %input{:type => "radio", :name => "quest1", :value => "d"}
+        D) February 19th long long long long long long long long long
+  .feedback{:class => "ui-state-highlight"}			
+      
+#q2
+  %strong
+    About how many miles is it from the beginning of the Mississippi river to the Gulf of Mexico?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest2", :value => "a"}
+        A) 2 miles
+    .option
+      %input{:type => "radio", :name => "quest2", :value => "b"}
+        B) 300 miles
+    .option
+      %input{:type => "radio", :name => "quest2", :value => "c"}
+        C) 2,300 miles
+    .option
+      %input{:type => "radio", :name => "quest2", :value => "d"}
+        D) 10,000 miles
+  .feedback{:class => "ui-state-highlight"}
+
+#q3
+  %strong
+    How old will your mom be on her next birthday?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest3", :value => "a"}
+        A) 27
+    .option
+      %input{:type => "radio", :name => "quest3", :value => "b"}
+        B) 37
+    .option
+      %input{:type => "radio", :name => "quest3", :value => "c"}
+        C) 47
+    .option
+      %input{:type => "radio", :name => "quest3", :value => "d"}
+        D) 57
+  .feedback{:class => "ui-state-highlight"}
+
+#q4
+  %strong
+    What would your mom like to do to Christopher? ;)
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest4", :value => "a"}
+        A) Punch him in the face
+    .option
+      %input{:type => "radio", :name => "quest4", :value => "b"}
+        B) Kick him in the knee
+    .option
+      %input{:type => "radio", :name => "quest4", :value => "c"}
+        C) Give him a big kiss
+    .option
+      %input{:type => "radio", :name => "quest4", :value => "d"}
+        D) Push him on the floor
+  .feedback{:class => "ui-state-highlight"}
+
+#q5
+  %strong
+    What state was your mom born in?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest5", :value => "a"}
+        A) California
+    .option
+      %input{:type => "radio", :name => "quest5", :value => "b"}
+        B) Chicago
+    .option
+      %input{:type => "radio", :name => "quest5", :value => "c"}
+        C) Minnesota
+    .option
+      %input{:type => "radio", :name => "quest5", :value => "d"}
+        D) Wisconsin
+  .feedback{:class => "ui-state-highlight"}
+   
+#q6
+  %strong
+    What is the capital of Minnesota?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest6", :value => "a"}
+        A) Minneapolis
+    .option
+      %input{:type => "radio", :name => "quest6", :value => "b"}
+        B) St. Paul
+    .option
+      %input{:type => "radio", :name => "quest6", :value => "c"}
+        C) Bloomington
+    .option
+      %input{:type => "radio", :name => "quest6", :value => "d"}
+        D) Maple Grove
+  .feedback{:class => "ui-state-highlight"}
+
+#q7
+  %strong
+    How many counties are in the state of Minnesota?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest7", :value => "a"}
+        A) 65
+    .option
+      %input{:type => "radio", :name => "quest7", :value => "b"}
+        B) 20
+    .option
+      %input{:type => "radio", :name => "quest7", :value => "c"}
+        C) 87
+    .option
+      %input{:type => "radio", :name => "quest7", :value => "d"}
+        D) 92
+  .feedback{:class => "ui-state-highlight"}
+ 
+#q8
+  %strong
+    What is the capital of Florida?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest8", :value => "a"}
+        A) Tallahassee
+    .option
+      %input{:type => "radio", :name => "quest8", :value => "b"}
+        B) Miami
+    .option
+      %input{:type => "radio", :name => "quest8", :value => "c"}
+        C) Fort Lauderdale
+    .option
+      %input{:type => "radio", :name => "quest8", :value => "d"}
+        D) Orlando
+  .feedback{:class => "ui-state-highlight"}
+  
+#q9
+  %strong
+    Where is Florida?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest9", :value => "a"}
+        A) Pacific Northwest
+    .option
+      %input{:type => "radio", :name => "quest9", :value => "b"}
+        B) Mid-Atlantic
+    .option
+      %input{:type => "radio", :name => "quest9", :value => "c"}
+        C) South Eastern U.S.
+    .option
+      %input{:type => "radio", :name => "quest9", :value => "d"}
+        D) Northern U.S
+  .feedback{:class => "ui-state-highlight"}
+
+#q10
+  %strong
+    Where is the happiest place on Earth?
+  %fieldset
+    .option
+      %input{:type => "radio", :name => "quest10", :value => "a"}
+        A) Paris
+    .option
+      %input{:type => "radio", :name => "quest10", :value => "b"}
+        B) Disney World
+    .option
+      %input{:type => "radio", :name => "quest10", :value => "c"}
+        C) Minneapolis
+    .option
+      %input{:type => "radio", :name => "quest10", :value => "d"}
+        D) Northwood, ND
+  .feedback{:class => "ui-state-highlight"}

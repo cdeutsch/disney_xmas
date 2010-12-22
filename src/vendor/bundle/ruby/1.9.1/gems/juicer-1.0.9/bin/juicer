@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+require "rubygems"
+require "juicer"
+require "juicer/cli"
+
+Juicer::Cli.run(ARGV)
