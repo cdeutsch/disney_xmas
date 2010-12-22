@@ -683,16 +683,17 @@ fieldset .option {
   display: inline-block;
   width: 170px;
   margin: 0.4em;
+  vertical-align: top;
 }
 
-/* line 138, ./src/stylesheets/partials/_default.sass */
+/* line 139, ./src/stylesheets/partials/_default.sass */
 .feedback {
   margin-top: 1em;
   padding: 0.5em;
   display: none;
 }
 
-/* line 143, ./src/stylesheets/partials/_default.sass */
+/* line 144, ./src/stylesheets/partials/_default.sass */
 canvas {
   cursor: crosshair;
   position: fixed;

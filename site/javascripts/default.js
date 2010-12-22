@@ -278,7 +278,7 @@ function typetext() {
 			//show win div
 			$('#win').slideDown('slow');			
 		}
-		setTimeout("typetext()", 28);
+		setTimeout("typetext()", 100);
 	}		
 	else {
 		c = 1;
