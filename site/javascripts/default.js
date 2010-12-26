@@ -252,7 +252,7 @@ function q10() {
 						$('#container').hide();
 						
 						//get ticker text
-						tickerText = $('#win h2').text();
+						tickerText = $('#win h2').html();
 						$('#win h2').text('');
 							
 						//show ticker text.
@@ -272,16 +272,24 @@ function q10() {
 
 function typetext() {	
 	var thisChar = tickerText.substr(c, 1);
-	$('#win h2').text(tickerText.substr(0, c++));
-	if(c < tickerText.length+1) {
-		if (c == 1){
-			//show win div
-			$('#win').slideDown('slow');			
-		}
-		setTimeout("typetext()", 100);
-	}		
-	else {
-		c = 1;
-		tickerText = "";
-	}	
+	if (thisChar == '<'){		
+		var newIndex = c + tickerText.substr(c).indexOf('>') + 1;
+		$('#win h2').html(tickerText.substr(0, newIndex));
+		c = newIndex;
+		setTimeout("typetext()", 1000);
+	}
+  else {
+		$('#win h2').html(tickerText.substr(0, c++));
+		if(c < tickerText.length+1) {
+			if (c == 1){
+				//show win div
+				$('#win').slideDown('slow');			
+			}
+			setTimeout("typetext()", 50);
+		}		
+		else {
+			c = 1;
+			tickerText = "";
+		}	
+	}
 }
